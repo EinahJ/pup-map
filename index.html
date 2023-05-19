@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="icon" type="image/png" href="img/logo.png">
+  <title>PUP Map</title>
+</head>
+<body>
+  <div class="map-container">
+    <img src="img/pup-map.gif" usemap="#building-map" alt="Building Map">
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+          <div class="img-container">
+         <img src="img/chapel.jpg" alt="Chapel" width="300" height="200">
+        </div>
+        <h2>Interfaith Chapel</h2>
+        <p>The ecumenical chapel (known as the Interfaith Chapel) is a nondenominational Christian church located inside the PUP - A. Mabini Campus</p>
+        </div>
+    </div>
+
+    <div id="myModal2" class="modal">
+        <div class="modal-content">
+          <img src="img/aquino.webp" alt="Library" width="300" height="200">
+          <h2>Ninoy Aquino Library and Learning Resources Center</h2>
+          <p>The Ninoy Aquino Library and Learning Resources Center (NALLRC) is the library system of the Polytechnic University of the Philippines composed of libraries providing services to the PUP System.</p>
+        </div>
+    </div>
+
+    <div id="myModal3" class="modal">
+        <div class="modal-content">
+          <img src="img/ferry.png" alt="Ferry" width="300" height="200">
+          <h2>PUP Sta. Mesa Ferry Station</h2>
+          <p>The Pasig River Ferry Boat is a public ferry system along the Pasig River in Metro Manila. The ferry station you mentioned is located in P.U.P., Sta Mesa, Manila, Metro Manila, Philippines</p>
+        </div>
+    </div>
+
+    <div id="myModal4" class="modal">
+        <div class="modal-content">
+          <img src="img/gym.jpg" alt="Gym" width="300" height="200">
+          <h2>Gymnasium and Sports Center</h2>
+          <p>The University Gymnasium serves as the training ground for the student athletes that participate in the intercollegiate sports program</p>
+        </div>
+    </div>
+
+    <div id="myModal5" class="modal">
+        <div class="modal-content">
+          <img src="img/grandstand.jpg" alt="Grandstand" width="300" height="200">
+          <h2>Grandstand</h2>
+          <p>PUP Grandstand is situated nearby to Apolinario Mabini Museum and Apolinario Mabini historical marker.</p>
+        </div>
+    </div>
+
+    <div id="myModal6" class="modal">
+      <div class="modal-content">
+        <img src="img/oval.jpg" alt="Oval" width="300" height="200">
+        <h2>Track and Football Oval</h2>
+        <p>This oval-shaped area serves as a central hub for various academic, recreational, and social activities within the university.</p>
+      </div>
+   </div>
+
+    <div id="myModal7" class="modal">
+      <div class="modal-content">
+      <img src="img/pool.jpg" alt="Pool" width="300" height="200">
+      <h2>Swimming pool</h2>
+      <p>It serves as a hub for aquatic activities, fitness, and recreational pursuits for students, faculty, and the wider university community.</p>
+      </div>
+    </div>
+
+    <div id="myModal8" class="modal">
+      <div class="modal-content">
+      <img src="img/ampi.jpg" alt="Ampi" width="300" height="200">
+      <h2>Amphitheater</h2>
+      <p>PUP Sta. Mesa Amphitheater, located within the sprawling campus of the Polytechnic University of the Philippines in Manila, Philippines, is a captivating outdoor venue designed to accommodate a diverse range of performances, events, and gatherings.</p>
+      </div>
+    </div>
+
+    <div id="myModal9" class="modal">
+      <div class="modal-content">
+      <img src="img/obelisk.jpg" alt="Monument" width="300" height="200">
+      <h2>Mabini Monument PUP Obelisk</h2>
+      <p>These historical structures hold significant cultural and academic value, reflecting the university's rich heritage and commitment to education.</p>
+      </div>
+    </div>
+
+    <div id="myModal10" class="modal">
+      <div class="modal-content">
+      <img src="img/main.webp" alt="Building" width="300" height="200">
+      <h2>PUP Main Building</h2>
+      <p>This is the main campus of the University located at Sta. Mesa, Manila.</p>
+    </div>
+    </div>
+
+    <map name="building-map">
+        <area class="chapel" shape="circle" coords="1270,1205,150" onmouseover="openModal('myModal')" onmouseout="closeModal('myModal')">
+        <area shape="poly" coords="795,70,880,40,945,230,1120,170,1150,250,975,315,1040,505,955,535" onmouseover="openModal('myModal2')" onmouseout="closeModal('myModal2')">
+        <area shape="poly" coords="650,1370,680,1360,705,1430,675,1440,675,1430,660,1435,645,1390,660,1380" onmouseover="openModal('myModal3')" onmouseout="closeModal('myModal3')">
+        <area shape="rect" coords="1670,68,1952,274" onmouseover="openModal('myModal4')" onmouseout="closeModal('myModal4')">
+        <area shape="poly" coords="1678,801,1697,810,1703,806,1717,816,1679,870,1690,879,1654,925,1645,918,1605,970,1590,960,1595,955,1580,945,1615,885,1605,875,1625,845,1645,855" onmouseover="openModal('myModal5')" onmouseout="closeModal('myModal5')">
+        <area shape="poly" coords="1830,770,1970,215,2070,740,2160,855,2145,990,2030,1150,1890,1345,1765,1405,1640,1365,1575,1275,1580,1125,1710,947" onmouseover="openModal('myModal6')" onmouseout="closeModal('myModal6')">
+        <area shape="rect" coords="1370,115,1595,225" onmouseover="openModal('myModal7')" onmouseout="closeModal('myModal7')">
+        <area shape="poly" coords="890,750,940,745,940,735,990,740,1010,765,1005,775,1030,810,986,827,941,818,904,784" onmouseover="openModal('myModal8')" onmouseout="closeModal('myModal8')">
+        <area shape="circle" coords="1411,554,48" onmouseover="openModal('myModal9')" onmouseout="closeModal('myModal9')">
+        <area shape="poly" coords="624,914,641,886,621,873,665,797,688,807,699,788,940,927,990,930,1236,790,1247,807,1269,795,1314,875,1295,885,1311,915,1069,1054,1045,1103,1045,1380,1020,1381,1021,1403,930,1405,928,1383,895,1381,892,1105,817,1147,872,1243,863,1250,880,1280,763,1347,742,1311,732,1312,603,1089,609,1085,589,1047,704,978,722,1008,732,1005,788,1100,863,1054" onmouseover="openModal('myModal10')" onmouseout="closeModal('myModal10')">
+      </map>
+</div>
+  <script src="script.js"></script>
+</body>
+</html>
